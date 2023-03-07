@@ -272,7 +272,7 @@ export class ChatGPTBot {
   // handle message for customized task handlers
   async onCustimzedTask(message: Message) {
     // e.g. if a message starts with "麦扣", the bot sends "🤖️：call我做咩啊大佬!"
-    const myKeyword = "麦扣";
+    const myKeyword = "郝佳诺hjnArno";
     if (message.text().includes(myKeyword)) {
       const myTaskContent = `回复所有含有"${myKeyword}"的消息`;
       const myReply = "🤖️：call我做咩啊大佬";
